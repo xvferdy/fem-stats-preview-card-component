@@ -70,5 +70,5 @@ Using flex `order` to order an element
 |:---:|
 
 <h3 align="right">
-      <a href="#testimonials-grid-section">To Top ⤴️</a>
+      <a href="##stats-preview-card-component">To Top ⤴️</a>
 </h3>
