@@ -1,0 +1,12 @@
+@mixin display($breakpoint) {
+	@if ($breakpoint == mobile) {
+		@media only screen and(max-width: 600px) {
+			@content;
+		}
+	}
+	@if ($breakpoint == tab-port) {
+		@media only screen and(max-width: 900px) {
+			@content;
+		}
+	}
+}

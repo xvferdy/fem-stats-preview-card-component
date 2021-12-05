@@ -1,0 +1,91 @@
+@use "../helpers/" as *;
+
+.card {
+	max-width: 111rem;
+	background-color: $dark-desaturated-blue;
+	border-radius: 1rem;
+	overflow: hidden;
+	display: flex;
+	color: $white;
+	&__information {
+		flex-basis: 52%;
+		display: flex;
+		flex-flow: column nowrap;
+		gap: 8rem;
+		padding: 6.9rem 7.2rem;
+		padding-bottom: 6rem;
+		&-text {
+			h1 {
+				margin-bottom: 2.2rem;
+				span {
+					color: $soft-violet;
+				}
+			}
+			p {
+				max-width: 34.7rem;
+				@include display(mobile) {
+					margin: 0 auto;
+				}
+			}
+		}
+		&-stats {
+			display: flex;
+			justify-content: space-between;
+			gap: 2rem;
+			max-width: 34.7rem;
+			h3 {
+				font-size: 2.4rem;
+				line-height: 2.2rem;
+				margin-bottom: 0.4rem;
+			}
+			.queries {
+				text-transform: uppercase;
+			}
+			p {
+				font-size: 1.2rem;
+				font-family: $secondary-font-lexend;
+				color: $white-stats;
+				text-transform: uppercase;
+				letter-spacing: 0.1rem;
+			}
+			@include display(mobile) {
+				flex-direction: column;
+				gap: 2.7rem;
+			}
+		}
+		@include display(mobile) {
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+			padding: 4rem 3.2rem;
+			gap: 5rem;
+			order: 2;
+		}
+	}
+	&__banner {
+		flex-grow: 1;
+		background-color: $soft-violet;
+		.header-desktop {
+			vertical-align: middle;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			mix-blend-mode: multiply;
+			opacity: 0.75;
+			@include display(tab-port) {
+				display: none;
+			}
+		}
+
+		.header-mobile {
+			display: none;
+			@extend .header-desktop;
+			@include display(tab-port) {
+				display: inline;
+			}
+		}
+	}
+	@include display(tab-port) {
+		flex-direction: column;
+	}
+}

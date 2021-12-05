@@ -1,0 +1,30 @@
+@use "../helpers/" as *;
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	font-family: $primary-font-inter;
+	// border: 1px solid crimson;
+}
+
+body {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.container {
+	background-color: $very-dark-blue;
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	padding: 2.4rem;
+	@include display(mobile) {
+		padding: 2rem;
+	}
+}
