@@ -37,8 +37,8 @@ Users should be able to:
 [![🐬 Newbie Difficulty List](https://img.shields.io/badge/Difficulty-Newbie-3F54A3?style=for-the-badge&logo=frontendmentor "Newbie Difficulty")](https://www.frontendmentor.io/challenges?difficulties=1)
 
 ### Links
-- Solution URL: [Here](https://xvferdy.github.io/fem-stats-preview-card-component/)
-- Live Site URL: [Here]()
+- Solution URL: [Here]()
+- Live Site URL: [Here](https://xvferdy.github.io/fem-stats-preview-card-component/)
 
 ## My process
 > ⏱️ My estimate time for this challenge is 1 day
