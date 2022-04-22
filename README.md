@@ -37,7 +37,7 @@ Users should be able to:
 [![🐬 Newbie Difficulty List](https://img.shields.io/badge/Difficulty-Newbie-3F54A3?style=for-the-badge&logo=frontendmentor "Newbie Difficulty")](https://www.frontendmentor.io/challenges?difficulties=1)
 
 ### Links
-- Solution URL: [~~Here~~]()
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/stats-preview-card-component-html-sass-ByIMFseH5 "Solution")
 - Live Site URL: [Here](https://xvferdy.github.io/fem-stats-preview-card-component/)
 
 ## My process
